@@ -197,7 +197,7 @@
    background-color: var(--bg) !important;
 }
 
-#nav-bar[inFullscreen="true"]{
+:root[inFullscreen="true"] #nav-bar {
    margin-top: -10px;
 }
 
@@ -292,6 +292,9 @@ toolbar#TabsToolbar {
 }
 hbox#nav-bar-customization-target {
     padding-left: 80px !important;
+}
+:root[inFullscreen="true"] hbox#nav-bar-customization-target {
+    margin-left: -40px !important;
 }
 
 /* SIDEBERY */
